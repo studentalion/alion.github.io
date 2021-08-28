@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>建站经验个人总结</title>
+      <link href="/2021/08/28/jian-zhan-jing-yan-ge-ren-zong-jie/"/>
+      <url>/2021/08/28/jian-zhan-jing-yan-ge-ren-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<h2 id="建站经验个人总结"><a href="#建站经验个人总结" class="headerlink" title="建站经验个人总结"></a>建站经验个人总结</h2><p>参考教程：<a href="https://zhuanlan.zhihu.com/p/371115118">https://zhuanlan.zhihu.com/p/371115118</a></p><p>​                    <a href="https://mx142.cn/2021/01/16/16/#toc-heading-7">https://mx142.cn/2021/01/16/16/#toc-heading-7</a></p><p>​        从六月份就一直想建一个个人博客，结果一直鸽到八月：）。今天晚上正好有空，就参考参考之前的一些教程，花了点时间弄成了本站。</p><p>​        本站主题采用hexo Matery，输入Blog工具为Typora。一开始参考第一个教程安装了keep主题，结果发现bug很多，想改个主题都会乱码。。。后来采用了next主题，好家伙，进去就乱码。最后终于翻出了第二个教程，采用了现在的主题。</p><p>​        做一个个人博客并不需要前置的编程知识，只需要按部就班的按教程来做。但要实现功能更加丰富的博客，一些必要的功能在实现时可能需要部分编程基础。</p><p>​        按了无数次的hexo cl &amp;&amp; hexo g &amp;&amp; hexo s，终于完成了本站的基本安装，在将来，本站会陆续增加功能性更强的模块。</p><p>​        本人设立博客的初衷是分享知识，运用知识，技术交流。希望有热心大佬能带带本萌新QWQ。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
