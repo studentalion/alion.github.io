@@ -4,6 +4,106 @@
   
     
     <entry>
+      <title>获取图片的两个途径</title>
+      <link href="/2021/08/29/huo-qu-tu-pian-de-liang-ge-tu-jing/"/>
+      <url>/2021/08/29/huo-qu-tu-pian-de-liang-ge-tu-jing/</url>
+      
+        <content type="html"><![CDATA[<h6 id="路径一："><a href="#路径一：" class="headerlink" title="路径一："></a><strong>路径一：</strong></h6><blockquote><p>​        参考链接：            <a href="https://blog.csdn.net/weixin_45397995/article/details/113802918#:~:text=%E6%8F%90%E5%8F%96%20Wallpaper%20Engine%20%E7%9A%84%20pkg%20%E5%A3%81%E7%BA%B8%E6%96%87%E4%BB%B6%EF%BC%8C%E8%8E%B7%E5%BE%97%E9%9D%99%E6%80%81%E5%A3%81%E7%BA%B8%201%20%E5%B0%86%E4%B8%8B%E8%BD%BD%E5%A5%BD%E7%9A%84,PowerShell%E4%B8%AD%E8%A1%A5%E4%B8%8A%E5%91%BD%E4%BB%A4%20-o%20.%2Foutput%E6%95%B2%E5%9B%9E%E8%BD%A6%207%20%E6%89%93%E5%BC%80%20output%20-%26gt%3B%20materials%E9%87%8C%E9%9D%A2%E5%B0%B1%E6%9C%89%E5%BC%A0%E9%9D%99%E6%80%81%E5%A3%81%E7%BA%B8%E5%9B%BE%E7%89%87%E4%BA%86">https://blog.csdn.net/weixin_45397995/article/details/113802918#:~:text=%E6%8F%90%E5%8F%96%20Wallpaper%20Engine%20%E7%9A%84%20pkg%20%E5%A3%81%E7%BA%B8%E6%96%87%E4%BB%B6%EF%BC%8C%E8%8E%B7%E5%BE%97%E9%9D%99%E6%80%81%E5%A3%81%E7%BA%B8%201%20%E5%B0%86%E4%B8%8B%E8%BD%BD%E5%A5%BD%E7%9A%84,PowerShell%E4%B8%AD%E8%A1%A5%E4%B8%8A%E5%91%BD%E4%BB%A4%20-o%20.%2Foutput%E6%95%B2%E5%9B%9E%E8%BD%A6%207%20%E6%89%93%E5%BC%80%20output%20-%26gt%3B%20materials%E9%87%8C%E9%9D%A2%E5%B0%B1%E6%9C%89%E5%BC%A0%E9%9D%99%E6%80%81%E5%A3%81%E7%BA%B8%E5%9B%BE%E7%89%87%E4%BA%86</a></p></blockquote><p>  <strong>思路：</strong>先从Wallpaper Engine上下载壁纸，采用上述文章工具提取即可。</p><h6 id="路径二："><a href="#路径二：" class="headerlink" title="路径二："></a><strong>路径二：</strong></h6><blockquote><p>​        参考链接：<a href="https://pixabay.com/illustrations/search/tech/?pagi=2&amp;">https://pixabay.com/illustrations/search/tech/?pagi=2&amp;</a> *英文网站</p></blockquote><p>  <strong>思路：</strong>直接搜索保存即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>已支持评论系统</title>
+      <link href="/2021/08/29/yi-zhi-chi-ping-lun-xi-tong/"/>
+      <url>/2021/08/29/yi-zhi-chi-ping-lun-xi-tong/</url>
+      
+        <content type="html"><![CDATA[<p>于下方评论区测试</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 站点建设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>已支持代码高亮</title>
+      <link href="/2021/08/29/yi-zhi-chi-dai-ma-gao-liang/"/>
+      <url>/2021/08/29/yi-zhi-chi-dai-ma-gao-liang/</url>
+      
+        <content type="html"><![CDATA[<pre class=" language-c"><code class="language-c"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h></span></span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>    <span class="token keyword">int</span> n<span class="token punctuation">;</span>    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> first<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>n<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>                   <span class="token comment" spellcheck="true">//to generate 10^(N-1) &amp; 10^N</span>        first <span class="token operator">*</span><span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> first<span class="token punctuation">;</span>j<span class="token operator">&lt;</span>first<span class="token operator">*</span><span class="token number">10</span><span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>        <span class="token comment" spellcheck="true">//to traverse all numbers from 10^(N-1) to 10^N </span>                <span class="token keyword">int</span> sum<span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token keyword">int</span> t <span class="token operator">=</span> j<span class="token punctuation">;</span>                <span class="token keyword">while</span><span class="token punctuation">(</span>t<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>                           <span class="token comment" spellcheck="true">//to get every digits of j</span>            <span class="token keyword">int</span> p <span class="token operator">=</span> t<span class="token operator">%</span><span class="token number">10</span><span class="token punctuation">;</span>            t <span class="token operator">=</span> t<span class="token operator">/</span><span class="token number">10</span><span class="token punctuation">;</span>            <span class="token keyword">int</span> pow<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> k <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>k<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span>k<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>          <span class="token comment" spellcheck="true">//to get the power of every digits </span>            pow<span class="token operator">=</span> pow<span class="token operator">*</span>p<span class="token punctuation">;</span>            <span class="token punctuation">}</span>        sum <span class="token operator">+</span><span class="token operator">=</span> pow<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">if</span><span class="token punctuation">(</span>sum <span class="token operator">==</span> j<span class="token punctuation">)</span><span class="token punctuation">{</span>                         <span class="token comment" spellcheck="true">//to verificate the summary</span>            <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span>sum<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>    <span class="token punctuation">}</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre><p>以上为示例。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 站点建设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>已支持emoji表情</title>
+      <link href="/2021/08/28/yi-zhi-chi-emoji-biao-qing/"/>
+      <url>/2021/08/28/yi-zhi-chi-emoji-biao-qing/</url>
+      
+        <content type="html"><![CDATA[<h2 id="已支持emoji表情"><a href="#已支持emoji表情" class="headerlink" title="已支持emoji表情"></a>已支持emoji表情</h2><p>参考教程：<a href="https://mx142.cn/2021/01/16/16/#toc-heading-10">https://mx142.cn/2021/01/16/16/#toc-heading-10</a></p><p>示例：<span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><p>*采用markdown emoji语法</p><p>​                </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 站点建设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>建站经验个人总结</title>
       <link href="/2021/08/28/jian-zhan-jing-yan-ge-ren-zong-jie/"/>
       <url>/2021/08/28/jian-zhan-jing-yan-ge-ren-zong-jie/</url>
@@ -11,6 +111,20 @@
         <content type="html"><![CDATA[<h2 id="建站经验个人总结"><a href="#建站经验个人总结" class="headerlink" title="建站经验个人总结"></a>建站经验个人总结</h2><p>参考教程：<a href="https://zhuanlan.zhihu.com/p/371115118">https://zhuanlan.zhihu.com/p/371115118</a></p><p>​                    <a href="https://mx142.cn/2021/01/16/16/#toc-heading-7">https://mx142.cn/2021/01/16/16/#toc-heading-7</a></p><p>​        从六月份就一直想建一个个人博客，结果一直鸽到八月：）。今天晚上正好有空，就参考参考之前的一些教程，花了点时间弄成了本站。</p><p>​        本站主题采用hexo Matery，输入Blog工具为Typora。一开始参考第一个教程安装了keep主题，结果发现bug很多，想改个主题都会乱码。。。后来采用了next主题，好家伙，进去就乱码。最后终于翻出了第二个教程，采用了现在的主题。</p><p>​        做一个个人博客并不需要前置的编程知识，只需要按部就班的按教程来做。但要实现功能更加丰富的博客，一些必要的功能在实现时可能需要部分编程基础。</p><p>​        按了无数次的hexo cl &amp;&amp; hexo g &amp;&amp; hexo s，终于完成了本站的基本安装，在将来，本站会陆续增加功能性更强的模块。</p><p>​        本人设立博客的初衷是分享知识，运用知识，技术交流。希望有热心大佬能带带本萌新QWQ。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 经验总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 站点建设 </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
