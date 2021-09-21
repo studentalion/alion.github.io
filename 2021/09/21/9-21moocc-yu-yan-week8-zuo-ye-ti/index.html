@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="平平淡淡才是真, steven&#39;s Blog">
+    <meta name="keywords" content="9.21MOOCc语言WEEK8作业题, steven&#39;s Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>平平淡淡才是真 | steven&#39;s Blog</title>
+    <title>9.21MOOCc语言WEEK8作业题 | steven&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">平平淡淡才是真</h1>
+                    <h1 class="description center-align post-title">9.21MOOCc语言WEEK8作业题</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%9D%82%E8%B0%88/">
-                                <span class="chip bg-color">杂谈</span>
+                            <a href="/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">编程学习</span>
                             </a>
                         
                     </div>
@@ -450,7 +450,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-09-10
+                    2021-09-21
                 </div>
                 
 
@@ -459,14 +459,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    839
+                    375
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 
@@ -486,35 +486,79 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <blockquote>
-<p>l灵感来源：<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/46349433/answer/578324752">https://www.zhihu.com/question/46349433/answer/578324752</a></p>
-</blockquote>
+                <pre class=" language-c"><code class="language-c"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h></span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;string.h></span></span>
+ 
+<span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token number">1002</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//由题意知数字量小于1000，故数组a设置为1002</span>
+ 
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> t<span class="token punctuation">,</span> i<span class="token punctuation">,</span> max <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> count<span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">//Initialization a</span>
+    <span class="token punctuation">{</span>
+        count<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">for</span> <span class="token punctuation">(</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>t<span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">)</span>   <span class="token comment" spellcheck="true">//input numbers</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>t<span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            count<span class="token punctuation">[</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">%</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//extract the digits of number to count[]</span>
+            a<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">/</span><span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">)</span>    <span class="token comment" spellcheck="true">//find the max of count[]</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span> max <span class="token operator">&lt;</span> count<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            max <span class="token operator">=</span> count<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d:"</span><span class="token punctuation">,</span> max<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">for</span> <span class="token punctuation">(</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">)</span> <span class="token comment" spellcheck="true">//output the max number</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span> count<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> max <span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" %d"</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
 <blockquote>
-<p>作者：匿名用户<br>链接：<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/46349433/answer/578324752">https://www.zhihu.com/question/46349433/answer/578324752</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<p>我<strong>羡慕</strong>有智慧和学识的人，但是我自己永远无法成为这一类人。</p>
-<p>我就是一个<strong>普通人</strong>而已。</p>
-<p><strong>现在不焦虑</strong>是因为不想上天ri地了，学业能有个中上，身体健康，然后提升一下自己的厨艺，我就觉得挺棒的。</p>
-<p><strong>我想要的生活就是</strong>有一个安身之所，四十五十平米的小地方，一份稳定的工作，能自己养活自己，有自己的兴趣爱好和一群不错的朋友，亲人身体健康。</p>
-<p>我<strong>爱</strong>我的父母，我也<strong>珍惜</strong>我的朋友。</p>
-<p>我<strong>只喜欢</strong>喜欢我的人。</p>
-<p>对国内的认知更加清晰了，鼓吹努力个人奋斗是<strong>有原因的</strong>，但是结果嘛……</p>
-<p>说到底我觉得<strong>上升的路太难了</strong>，我这个能力和智商<strong>承受不了</strong>去精英阶层的路，奔个中产就很不错了，实在不行小康我也能接受，我也没什么奢侈的爱好，攀比心不重，能让我吃一顿好吃的肉就能<strong>很开心了</strong>。</p>
-<p>我觉得人快乐不快乐是能力和欲望的平衡。</p>
-<p>我现在没什么欲望，大概是因为国外的分数通过论文给，我自己每次论文都尽心尽力写了，分数可能不太好可能勉勉强强，但我努力过了，问心无愧。</p>
-<p>总结下来，清楚认识了自己，清楚自己想要的最基础的物质生活底线在哪，自理能力飙升，人变得佛系，不偏执。</p>
-<p>挺满意现在的状态的，佛系不是说不争不抢，而是有目标，尽力去做，结果无论好坏尽力过后没什么好遗憾的了。</p>
-<p>就和知道喝奶茶长胖，但是戒不掉，那怀着愧疚的心态喝，不如别想那么多，开开心心的喝。</p>
-<p>知乎也好微博也好，打发时间才看看，知乎<em>精英</em>太多了并推崇<em>精英</em>的生活。</p>
-<p>对不起，你们牛逼你们的，我实在是个<strong>普通人</strong>，每天睡6小时杀了我吧，我8小时才能休息好。</p>
-<p><em>精英</em>的生活我承受不来。</p>
-<p>安安心心当我的普通人并且努力寻找生活中的乐趣（我的乐趣很简单，吃好吃的就够了。</p>
-<p>Emmm看见蓝蓝的天空和很好看的男生我也会觉得很快乐。</p>
-<p>我本性是一个急躁且偏执的性格，现在算是找到一个平衡点吧。</p>
-<p>对无望的爱有一种自虐的沉迷感，觉得偏执控制欲很迷人，很容易和这类文化作品里的虚拟人物引起共鸣（比如歌剧魅影的男主</p>
-<p>但是现实里看开点会过得更舒服，魅影依然吸引我，只是我不会像他那样去做了。</p>
+<h1 id="08-1-求一批整数中出现最多的个位数字-20"><a href="#08-1-求一批整数中出现最多的个位数字-20" class="headerlink" title="08-1. 求一批整数中出现最多的个位数字(20)"></a>08-1. 求一批整数中出现最多的个位数字(20)</h1><p>时间限制</p>
+<p>400 ms</p>
+<p>内存限制</p>
+<p>65536 kB</p>
+<p>代码长度限制</p>
+<p>8000 B</p>
+<p>判题程序</p>
+<p>Standard</p>
+<p>作者</p>
+<p>徐镜春（浙江大学）</p>
+<p>给定一批整数，分析每个整数的每一位数字，求出现次数最多的个位数字。例如给定3个整数1234、2345、3456，其中出现最多次数的数字是3和4，均出现了3次。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入在第1行中给出正整数N（&lt;=1000），在第2行中给出N个不超过整型范围的正整数，数字间以空格分隔。</p>
+<p><strong>输出格式：</strong></p>
+<p>在一行中按格式“M: n1 n2 …”输出，其中M是最大次数，n1、n2、……为出现次数最多的个位数字，按从小到大的顺序排列。数字间以空格分隔，但末尾不得有多余空格。</p>
+<p><strong>输入样例：</strong></p>
+<pre><code>3
+1234 2345 3456
+</code></pre>
+<p><strong>输出样例：</strong></p>
+<pre><code>3: 3 4
+</code></pre>
 </blockquote>
-<p>​        </p>
-<h5 id="我的想法和这位匿名用户有许多重合之处。或许，作为普通人的我，应当去承认自己的平凡，放下包袱，快乐的迎接明天？"><a href="#我的想法和这位匿名用户有许多重合之处。或许，作为普通人的我，应当去承认自己的平凡，放下包袱，快乐的迎接明天？" class="headerlink" title="我的想法和这位匿名用户有许多重合之处。或许，作为普通人的我，应当去承认自己的平凡，放下包袱，快乐的迎接明天？"></a>我的想法和这位匿名用户有许多重合之处。或许，作为普通人的我，应当去承认自己的平凡，放下包袱，快乐的迎接明天？</h5>
+
                 
             </div>
             <hr/>
@@ -540,7 +584,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/09/10/ping-ping-dan-dan-cai-shi-zhen/">http://example.com/2021/09/10/ping-ping-dan-dan-cai-shi-zhen/</a>
+                    <a href="http://example.com/2021/09/21/9-21moocc-yu-yan-week8-zuo-ye-ti/">http://example.com/2021/09/21/9-21moocc-yu-yan-week8-zuo-ye-ti/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -578,8 +622,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%9D%82%E8%B0%88/">
-                                    <span class="chip bg-color">杂谈</span>
+                                <a href="/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">编程学习</span>
                                 </a>
                             
                         </div>
@@ -891,9 +935,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/09/21/9-21moocc-yu-yan-week8-zuo-ye-ti/">
                     <div class="card-image">
@@ -911,9 +956,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-09-21
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-21
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -922,6 +967,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -940,13 +986,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/08/29/huo-qu-tu-pian-de-liang-ge-tu-jing/">
+                <a href="/2021/09/10/ping-ping-dan-dan-cai-shi-zhen/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="获取图片的两个途径">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="平平淡淡才是真">
                         
-                        <span class="card-title">获取图片的两个途径</span>
+                        <span class="card-title">平平淡淡才是真</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -957,16 +1003,12 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-10
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/" class="post-category">
-                                    经验总结
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Steven Xuan
                             
                         </span>
                     </div>
@@ -974,8 +1016,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%B5%84%E6%BA%90/">
-                        <span class="chip bg-color">资源</span>
+                    <a href="/tags/%E6%9D%82%E8%B0%88/">
+                        <span class="chip bg-color">杂谈</span>
                     </a>
                     
                 </div>
